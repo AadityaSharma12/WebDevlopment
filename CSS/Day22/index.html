@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 100vh;
+            margin: auto;
+            background-color: aquamarine;
+            height: 10vh;
+        }
+        .container{
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 100vh;
+            margin: 23px auto;
+            background-color: aquamarine;
+            font-size:30px;
+            height: 80vh;
+        }
+        p{
+            font-size: 4em;
+        }
+        .container>p{
+            font-size: 1rem;
+        }
+        .mycont{
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 100vmin;
+            min-height: 100px;
+        }
+        .last{
+            border: 2px solid black;
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+        }
+        .last p{
+            font-size: 20px;
+            width: 50%;
+        }
+        .last> p> div{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+
+    <div class="container">Container
+        <p>lorem4</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit.</p>
+
+    <div class="mycont">I am loerem40 a container Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur nobis illum doloremque asperiores eos reprehenderit obcaecati, unde minus laborum sint adipisci repellat? Necessitatibus in, fugiat nam at praesentium amet, repellat id omnis placeat voluptatum tempora voluptatibus dolore illo labore.</div>
+
+    <div class="last">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit natus itaque alias esse similique. Optio libero placeat suscipit provident! Maiores, rem neque! Exercitationem minima inventore fuga assumenda ducimus quas perferendis.
+            <p>Lorem, ipsum dolor. Lorem ipsum dolor sit.loemwsdf</p>
+        </div>
+    </div>
+</body>
+</html>

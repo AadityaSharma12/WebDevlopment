@@ -1,0 +1,20 @@
+.red{
+    /* background-color: red; */
+    color: red;
+}
+#firstdiv{
+    background-color: aquamarine;
+}
+
+#first{
+    background-color: aqua;
+}
+#second{
+    background-color: palevioletred;
+}
+#third{
+    background-color: rgb(85, 179, 179);
+}
+#fourth{
+    background-color: coral;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fir{
+            color: rgb(38, 38, 189);
+        }
+        /* The specificity of this is 1 */
+    h1{
+        color: aqua;
+    }  
+     /* The specificity of this is 10 */   
+    h1.red{
+        color: black !important;
+    }
+     /* The specificity of this is 10 */
+    .yellow{
+        color: yellow ;
+    }
+     /* The specificity of this is 10 */
+    .purple{
+        color: purple;
+    }
+    /* This is an example of attribute selector and specificity is 10*/
+    [data-x=a]{
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="fir" class="red yellow purple" data-x="a">Hiii I am specificity</h1>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        *{
+            margin: 0;
+            font-size: 40px;
+        }
+        div{
+            background-color: red;
+        }
+        .pink{
+            background-color: pink;
+        }
+        #blue{
+            background-color: blue;
+        }
+
+        div >p{
+            color: aqua;
+        }
+        div p{
+            color: blue;
+        }
+
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: rebeccapurple;
+        }
+        a:hover{
+            background-color: red;
+        }
+        h1:first-child{
+            background-color: aqua;
+        }
+        h1:nth-child(2){
+            color: green;
+        }
+        h1:last-child{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div>I am a div
+        <p>I am a paragraph</p>
+    </div>
+
+    <div class="pink">I am also a div</div>
+
+    <div class="pink" id="blue">I am ID selector</div>
+
+    <div>
+        <p>I am a div para</p>
+    <span>
+        <p>I am span para</p>
+    </span>
+    </div>
+
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+
+    <main>
+        <h1>Hiiiiiii</h1>
+        <h1>Byeeeee</h1>
+        <h1>third</h1>
+        <h1>Fourth</h1>
+        <h1>Fifth</h1>
+        <h1>Sixth</h1>
+    </main>
+</body>
+</html>
