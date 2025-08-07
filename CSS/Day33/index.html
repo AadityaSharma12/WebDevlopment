@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --f:flex;
+            --bgc:rgb(45, 92, 131);
+            --fsize:30px;
+            --color:rgb(197, 21, 30);
+            --ncolor:yellow;
+        }
+
+        div{
+            background-color: var(--bgc);
+        }
+        div ul{
+            display: var(--f);
+            margin-left: 40px;
+        }
+        div ul li{
+            list-style: none;
+            padding: 25px;
+            padding-left: 40px;
+            color: var(--color);
+            font-size: var(--fsize);
+        }
+        div ul li:nth-child(3){
+            color: var(--ncolor);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Footer</li>
+        </ul>
+    </div>
+</body>
+</html>
