@@ -1,0 +1,1 @@
+console.log("Solved in day 62")

@@ -1,0 +1,1 @@
+console.log("Exercise solved in Day 59")
