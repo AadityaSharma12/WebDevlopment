@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .by-green{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container red by-green">
+        <div class="box" style="color: aqua; display: flex;" data-createdby="harry" data-conceptby="rohan">Hey I am a box</div>
+        <div class="box">Hey I am a box 2</div>
+    </div>
+
+    <script>
+        // console.log(document.querySelector('.box'))
+
+        // console.log(document.querySelector('.box').innerHTML)
+        // console.log(document.querySelector('.container').innerHTML)
+        // console.log(document.querySelector('.box').innerText)
+        // console.log(document.querySelector('.container').outerHTML)
+        // console.log(document.querySelector('.container').tagName)
+        // console.log(document.querySelector('.container').nodeName)
+        // console.log(document.querySelector('.container').textContent)
+        // console.log(document.querySelector('.container').hidden)
+        // // console.log(document.querySelector('.container').hidden=true)
+        // console.log(document.querySelector('.box').innerHTML="Hey I am Aaditya")
+        // console.log(document.querySelector('.box').hasAttribute("style"))
+        // console.log(document.querySelector('.box').getAttribute("style"))
+        // console.log(document.querySelector('.box').setAttribute("style","background-color: black; "))
+        // console.log(document.querySelector('.box').attributes)
+        // console.log(document.querySelector('.box').removeAttribute("style"))
+
+        // console.log(document.querySelector('.box').dataset)
+
+
+
+        // INsertion using JS
+        // let div=document.createElement('div')
+        // div.innerHTML='I have been inserted <b>by harry</b>'
+        // div.setAttribute("class","created")
+        // document.querySelector('.container').append(div)
+        // document.querySelector('.container').before(div)
+        // document.querySelector('.container').after(div)
+
+        // let cont=document.querySelector('.container')
+        // cont.insertAdjacentHTML("beforebegin","<div>After it</div>")
+
+
+        // document.querySelector('.box').remove()
+
+        console.log(document.querySelector('.container').classList)
+        console.log(document.querySelector('.container').className)
+        console.log(document.querySelector('.container').classList.add("blue"))
+        console.log(document.querySelector('.container').className)
+        console.log(document.querySelector('.container').classList.remove("red"))
+        console.log(document.querySelector('.container').className)
+        console.log(document.querySelector('.container').classList.toggle("by-green"))
+    </script>
+
+</body>
+</html>
